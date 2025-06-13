@@ -77,7 +77,7 @@ npm run dev
 
 | Role | Name | GitHub | Responsibilities |
 |------|------|--------|------------------|
-| **Project Lead** | Collins Kimani | [@collins-kimani](https://github.com/KinyanjuiC) | Full-stack development, AI algorithm design, project management, technical architecture |
+| **Project Lead** | Collins Kimani | [@KinyanjuiC](https://github.com/KinyanjuiC) | Full-stack development, AI algorithm design, project management, technical architecture |
 | **Collaborator** | Cynthia Njeri | [@cynthia-njeri](https://github.com/cynthijeri) | Frontend development, UX/UI design, user research, quality assurance |
 
 ## 📅 Project Timeline
