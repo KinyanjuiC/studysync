@@ -1,6 +1,6 @@
 ## 🎯 Project Description
 
-StudySync revolutionizes collaborative learning by addressing the critical problem of student isolation and ineffective study habits in higher education. Our AI-powered platform intelligently matches students with compatible study partners, creates personalized study schedules, and facilitates seamless collaboration through virtual study rooms with real-time progress tracking.
+StudySync revolutionizes collaborative learning by addressing the critical problem of student isolation and ineffective study habits in higher education. Our digital platform intelligently matches students with compatible study partners, creates personalized study schedules and facilitates seamless collaboration through virtual study rooms with real-time progress tracking.
 
 ### 🔍 Market Need
 - **73%** of students report feeling isolated in their studies
@@ -54,24 +54,7 @@ StudySync revolutionizes collaborative learning by addressing the critical probl
 
 ### Installation & Setup
 
-```bash
-# Clone the repository
-git clone https://github.com/collins-kimani/studysync-platform.git
-cd studysync-platform
-
-# Install dependencies
-npm install
-
-# Set up environment variables
-cp .env.example .env
-# Edit .env with your configuration
-
-# Run database migrations (when implemented)
-npm run migrate
-
-# Start development server
-npm run dev
-```
+Coming soon...
 
 ## 👨‍💻 Team Members
 
