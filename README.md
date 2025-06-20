@@ -96,7 +96,7 @@ Coming soon...
 ## 📊 Project Management
 
 ### 📋 Project Board
-[**View our detailed project board**](https://github.com/KinyanjuiC/studysync-platform/projects/1) for real-time task tracking, sprint planning, and progress updates.
+[**View our detailed project board**](https://github.com/users/KinyanjuiC/projects/2) for real-time task tracking, sprint planning, and progress updates.
 
 ### 🎯 Current Sprint Goals
 - Complete market research documentation
