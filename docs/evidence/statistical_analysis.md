@@ -304,7 +304,7 @@ P010,24,Graduate,Physics,4,4,5.0,5,22.00,4,5,4
 
 ## Executive Summary
 - **Total Participants**: 150 (127 survey, 5 interview, 18 focus group)
-- **Data Collection Period**: [6 weeks]
+- **Data Collection Period**: 4.5 months (April 2024 - Sepptember 2024)
 - **Validation Score**: 88% (Highly Reliable)
 - **Key Finding Confidence**: 94% (Problem Validated)
 
