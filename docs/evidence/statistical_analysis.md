@@ -299,7 +299,7 @@ P010,24,Graduate,Physics,4,4,5.0,5,22.00,4,5,4
 
 ## 11. Complete Data Summary Dashboard
 
-```markdown:docs/evidence/research_summary_dashboard.md
+->research_summary_dashboard.md
 # StudySync Research Evidence Dashboard
 
 ## Executive Summary
