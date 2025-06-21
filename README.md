@@ -108,7 +108,7 @@ Coming soon...
 
 | Document | Description | Status |
 |----------|-------------|---------|
-| [Market Research Report](docs/market research report.pdf) | Comprehensive market analysis and validation | ✅ Complete |
+| [Market Research Report](docs/market_research_report.pdf) | Comprehensive market analysis and validation | ✅ Complete |
 | [Data Gathering Summary](docs/data_gathering_summary.pdf) | Primary and secondary research findings | ✅ Complete |
 | [Requirements Document](docs/requirements_document.md) | Functional and technical requirements | ✅ Complete |
 | [API Documentation](docs/api_documentation.md) | RESTful API endpoints and usage | 🔄 In Progress |
