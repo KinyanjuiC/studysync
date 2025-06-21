@@ -52,6 +52,13 @@ StudySync revolutionizes collaborative learning by addressing the critical probl
 - npm or yarn package manager
 - Git
 
+### Technical Requirements
+- **Frontend**: React.js, responsive design
+- **Backend**: Node.js, RESTful API
+- **Database**: PostgreSQL for user data, Redis for sessions
+- **Real-time**: Socket.io for live collaboration
+- **AI/ML**: Python microservices for matching algorithm
+
 ### Installation & Setup
 
 Coming soon...
