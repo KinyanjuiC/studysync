@@ -68,6 +68,7 @@ Clone the repository:
    ```bash
    git clone https://github.com/KinyanjuiC/studysync.git
    cd studysync
+```
 
 ## 👨‍💻 Team Members
 
