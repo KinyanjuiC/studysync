@@ -69,7 +69,97 @@ Clone the repository:
    ```bash
    git clone https://github.com/KinyanjuiC/studysync.git
    cd studysync
+   ```
+
+#### 1. Configure Environment Variables
+
+Copy the example environment files and update them with your configuration:
+
+```bash
+cd studysyncV2
+cp backend/.env.example backend/.env
+cp frontend/.env.example frontend/.env
+cp ai-microservice/.env.example ai-microservice/.env
 ```
+- Update each `.env` file with your database credentials, Redis URL, JWT secrets, and any API keys.
+
+#### 2. Set Up the Database
+
+- Make sure PostgreSQL is running.
+- Create the required database (e.g., `studysync`) and run the schema:
+
+```bash
+psql -U your_db_user -c "CREATE DATABASE studysync;"
+psql -U your_db_user -d studysync -f backend/db.sql
+```
+
+#### 3. Start Redis
+
+Start your Redis server (locally or via Docker):
+
+```bash
+redis-server
+# or using Docker
+docker run -p 6379:6379 redis
+```
+
+#### 4. Install Backend Dependencies
+
+```bash
+cd backend
+npm install
+```
+
+#### 5. Install Frontend Dependencies
+
+```bash
+cd ../frontend
+npm install
+```
+
+#### 6. Install AI Microservice Dependencies
+
+```bash
+cd ../ai-microservice
+pip install -r requirements.txt
+```
+
+#### 7. Run the Services
+
+**Start the backend:**
+```bash
+cd ../backend
+npm start
+```
+
+**Start the frontend:**
+```bash
+cd ../frontend
+npm start
+```
+
+**Start the AI microservice:**
+```bash
+cd ../ai-microservice
+python app.py
+```
+
+#### 8. (Optional) Using Docker
+
+You can run the entire stack with Docker Compose for easier setup. From the project root:
+
+```bash
+docker-compose up --build
+```
+
+---
+
+You should now be able to access the platform at `http://localhost:3000` (or the port specified in your frontend configuration).
+
+For any issues, check the logs of each service and ensure all environment variables and database connections are properly configured.
+
+
+
 
 ## 👨‍💻 Team Members
 
@@ -117,5 +207,6 @@ Clone the repository:
 | [Market Research Report](docs/market_research_report.pdf) | Comprehensive market analysis and validation | ✅ Complete |
 | [Data Gathering Summary](docs/data_gathering_summary.pdf) | Primary and secondary research findings | ✅ Complete |
 | [Requirements Document](docs/requirements_document.md) | Functional and technical requirements | ✅ Complete |
+
 
 
