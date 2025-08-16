@@ -168,9 +168,9 @@ For any issues, check the logs of each service and ensure all environment variab
 | **Project Lead** | Collins Kimani | [@KinyanjuiC](https://github.com/KinyanjuiC) 
 | **Collaborator** | Cynthia Njeri | [@cynthia-njeri](https://github.com/cynthijeri) 
 
-## 📅 Project Timeline
+## 📅 Project Timeline✅
 
-### Phase 1: Research & Foundation (Weeks 1-2) ✅
+### Phase 1: Research & Foundation (Weeks 1-2) 
 - [x] Comprehensive market research and validation
 - [x] User persona development and pain point analysis
 - [x] Technical architecture design and planning
@@ -207,6 +207,7 @@ For any issues, check the logs of each service and ensure all environment variab
 | [Market Research Report](docs/market_research_report.pdf) | Comprehensive market analysis and validation | ✅ Complete |
 | [Data Gathering Summary](docs/data_gathering_summary.pdf) | Primary and secondary research findings | ✅ Complete |
 | [Requirements Document](docs/requirements_document.md) | Functional and technical requirements | ✅ Complete |
+
 
 
 
