@@ -1,0 +1,58 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:14
+    restart: always
+    environment:
+      POSTGRES_DB: studysync_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1017
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+  redis:
+    image: redis:7
+    restart: always
+    ports:
+      - "6379:6379"
+  backend:
+    build: ./backend
+    restart: always
+    ports:
+      - "3001:3001"
+    depends_on:
+      - db
+      - redis
+    env_file:
+      - ./backend/.env
+    environment:
+      DATABASE_URL: postgres://postgres:1017@db:5432/studysync_db
+      REDIS_URL: redis://redis:6379
+      AI_SERVICE_URL: http://ai:5000/match
+    volumes:
+      - ./backend/uploads:/app/uploads
+  ai:
+    build: ./ai-microservice
+    restart: always
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./ai-microservice/.env
+  frontend:
+    build: ./frontend
+    restart: always
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - frontend
+volumes:
+  postgres_data:
