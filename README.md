@@ -60,7 +60,8 @@ StudySync revolutionizes collaborative learning by addressing the critical probl
 - **Backend**: Node.js, RESTful API
 - **Database**: PostgreSQL for user data, Redis for sessions
 - **Real-time**: Socket.io for live collaboration
-- **AI/ML**: Python microservices for matching algorithm
+- **AI/ML**: Python microservices for matching algorithm.
+- **Docker Containerization**: Provides a consistent and isolated environment for all application components,
 
 ### Installation & Setup
 
@@ -116,4 +117,5 @@ Clone the repository:
 | [Market Research Report](docs/market_research_report.pdf) | Comprehensive market analysis and validation | ✅ Complete |
 | [Data Gathering Summary](docs/data_gathering_summary.pdf) | Primary and secondary research findings | ✅ Complete |
 | [Requirements Document](docs/requirements_document.md) | Functional and technical requirements | ✅ Complete |
+
 
