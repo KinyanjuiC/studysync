@@ -49,7 +49,10 @@ StudySync revolutionizes collaborative learning by addressing the critical probl
 
 ### Prerequisites
 - Node.js (v18 or higher)
-- npm or yarn package manager
+- npm or yarn
+- PostgreSQL
+- Redis
+- Docker (optional)
 - Git
 
 ### Technical Requirements
@@ -61,14 +64,17 @@ StudySync revolutionizes collaborative learning by addressing the critical probl
 
 ### Installation & Setup
 
-Coming soon...
+Clone the repository:
+   ```bash
+   git clone https://github.com/KinyanjuiC/studysync.git
+   cd studysync
 
 ## 👨‍💻 Team Members
 
-| Role | Name | GitHub | Responsibilities |
-|------|------|--------|------------------|
-| **Project Lead** | Collins Kimani | [@KinyanjuiC](https://github.com/KinyanjuiC) | Full-stack development, AI algorithm design, project management, technical architecture |
-| **Collaborator** | Cynthia Njeri | [@cynthia-njeri](https://github.com/cynthijeri) | Frontend development, UX/UI design, user research, quality assurance |
+| Role | Name | GitHub |
+|------|------|--------|
+| **Project Lead** | Collins Kimani | [@KinyanjuiC](https://github.com/KinyanjuiC) 
+| **Collaborator** | Cynthia Njeri | [@cynthia-njeri](https://github.com/cynthijeri) 
 
 ## 📅 Project Timeline
 
@@ -80,36 +86,27 @@ Coming soon...
 - [x] Competitive analysis and positioning strategy
 
 ### Phase 2: MVP Development (Weeks 3-6)
-- [ ] User authentication and profile management system
-- [ ] Core AI matching algorithm implementation
-- [ ] Basic virtual study room with video/audio capabilities
-- [ ] Database schema design and implementation
-- [ ] RESTful API development for core features
+- [x] User authentication and profile management system
+- [x] Core AI matching algorithm implementation
+- [x] Basic virtual study room with video/audio capabilities
+- [x] Database schema design and implementation
+- [x] RESTful API development for core features
 
 ### Phase 3: Advanced Features (Weeks 7-10)
-- [ ] Enhanced AI matching with learning style analysis
-- [ ] Personalized study scheduling and calendar integration
-- [ ] Progress tracking and analytics dashboard
-- [ ] Real-time notification system
-- [ ] Mobile-responsive design optimization
+- [x] Enhanced AI matching with learning style analysis
+- [x] Personalized study scheduling and calendar integration
+- [x] Progress tracking and analytics dashboard
+- [x] Real-time notification system
+- [x] Mobile-responsive design optimization
 
 ### Phase 4: Testing & Launch Preparation (Weeks 11-12)
-- [ ] Comprehensive user testing and feedback integration
-- [ ] Performance optimization and scalability improvements
-- [ ] Security audit and compliance verification
-- [ ] Beta launch with select university partnerships
-- [ ] Marketing website and user onboarding flow
+- [x] Comprehensive user testing and feedback integration
+- [x] Performance optimization and scalability improvements
 
 ## 📊 Project Management
 
 ### 📋 Project Board
 [**View our detailed project board**](https://github.com/users/KinyanjuiC/projects/2) for real-time task tracking, sprint planning, and progress updates.
-
-### 🎯 Current Sprint Goals
-- Complete market research documentation
-- Finalize technical architecture decisions
-- Set up development environment and CI/CD pipeline
-- Begin user authentication system implementation
 
 ## 📚 Documentation
 
@@ -118,5 +115,3 @@ Coming soon...
 | [Market Research Report](docs/market_research_report.pdf) | Comprehensive market analysis and validation | ✅ Complete |
 | [Data Gathering Summary](docs/data_gathering_summary.pdf) | Primary and secondary research findings | ✅ Complete |
 | [Requirements Document](docs/requirements_document.md) | Functional and technical requirements | ✅ Complete |
-| [API Documentation](docs/api_documentation.md) | RESTful API endpoints and usage | 🔄 In Progress |
-| [User Guide](docs/user_guide.md) | End-user documentation | ⏳ Planned |
