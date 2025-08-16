@@ -1,6 +1,6 @@
 ## 🎯 Project Description
 
-StudySync revolutionizes collaborative learning by addressing the critical problem of student isolation and ineffective study habits in higher education. Our digital platform intelligently matches students with compatible study partners, creates personalized study schedules and facilitates seamless collaboration through virtual study rooms with real-time progress tracking.
+StudySync revolutionizes collaborative learning by addressing the critical problem of student isolation and ineffective study habits in higher education. Our digital platform intelligently matches students with compatible study partners and facilitates seamless collaboration through virtual study rooms with real-time progress tracking.
 
 ### 🔍 Market Need
 - **73%** of students report feeling isolated in their studies
@@ -116,3 +116,4 @@ Clone the repository:
 | [Market Research Report](docs/market_research_report.pdf) | Comprehensive market analysis and validation | ✅ Complete |
 | [Data Gathering Summary](docs/data_gathering_summary.pdf) | Primary and secondary research findings | ✅ Complete |
 | [Requirements Document](docs/requirements_document.md) | Functional and technical requirements | ✅ Complete |
+
